@@ -6,8 +6,8 @@ git submodule init
 git submodule update
 # create local branch and checkout to track any local changes
 # ignore errors!
-git submodule foreach 'git branch yoctobuild || :'
-git submodule foreach 'git checkout yoctobuild || :'
+#git submodule foreach 'git branch yoctobuild || :'
+#git submodule foreach 'git checkout yoctobuild || :'
 
 echo "================================="
 echo "once only fetch done ready to run"
